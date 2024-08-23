@@ -3,5 +3,6 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/backend/spring-boot-example/src/main/resources/db/migration/V1__Initial_Setup.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/backend/spring-boot-example/src/main/resources/db/migration/V2__Add_Unique_Constraint_To_Customer_Email.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/backend/spring-boot-example/src/main/resources/db/migration/V3__Add_Gender_Enum_To_Customer.sql" dialect="PostgreSQL" />
   </component>
 </project>

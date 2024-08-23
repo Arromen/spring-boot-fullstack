@@ -54,8 +54,8 @@ class CustomerJPADataAccessServiceTest {
                 1L,
                 "Test Name",
                 "test@example.com",
-                25
-        );
+                25,
+                Gender.MALE);
 
         // When
         underTest.insertCustomer(customer);
@@ -108,8 +108,8 @@ class CustomerJPADataAccessServiceTest {
                 1L,
                 "Test Name",
                 "test@example.com",
-                25
-        );
+                25,
+                Gender.MALE);
 
         // When
         underTest.updateCustomer(customer);
