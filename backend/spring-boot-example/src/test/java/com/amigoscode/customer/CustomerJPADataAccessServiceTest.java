@@ -54,7 +54,7 @@ class CustomerJPADataAccessServiceTest {
                 1L,
                 "Test Name",
                 "test@example.com",
-                25,
+                "password", 25,
                 Gender.MALE);
 
         // When
@@ -108,7 +108,7 @@ class CustomerJPADataAccessServiceTest {
                 1L,
                 "Test Name",
                 "test@example.com",
-                25,
+                "password", 25,
                 Gender.MALE);
 
         // When
